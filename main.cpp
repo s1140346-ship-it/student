@@ -1,15 +1,15 @@
+
 #include <iostream>
 
-int main() {
-    int age =37;
-    double height=169.5;
-    std::string name = "布魯斯yang";
-    bool is_student = false;
-    std::cout << "name: " << age << std::endl;
-    std::cout << "身高: " << height << std::endl;
-    std::cout << "年齡: " <<  age << std::endl;
-    std::cout << "是否為學生: " << is_student << std::endl;
-    
-    
+int main()
+{
+    std::cout<<"台股大跌" << std::endl;
+    std::cout<<"台 股 大 跌" << std::endl;
+    std::cout<<"台\t股\t大\t跌" << std::endl;
+    std::cout<<"台\n股\n大\n跌" << std::endl;
+    std::cout<<"\"台股大跌\"" << std::endl;
+    std::cout<<"台股大跌" << std::endl;
+    std::cout<<"\\台股大跌\\" << std::endl;
+
     return 0;
 }
