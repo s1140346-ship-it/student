@@ -1,15 +1,15 @@
-
 #include <iostream>
 
-int main()
-{
-    std::cout<<"台股大跌" << std::endl;
-    std::cout<<"台 股 大 跌" << std::endl;
-    std::cout<<"台\t股\t大\t跌" << std::endl;
-    std::cout<<"台\n股\n大\n跌" << std::endl;
-    std::cout<<"\"台股大跌\"" << std::endl;
-    std::cout<<"台股大跌" << std::endl;
-    std::cout<<"\\台股大跌\\" << std::endl;
-
+int main(){
+    std::cout << "請輸入年齡";
+    int age;
+    std::cin >> age;
+    if(age >= 18) {
+       std::cout << "你可以觀看pxxxxhub 網站 ";
+       
+    }
+    if (age <18) {
+        std::cout << "你還是好好讀書 ";
+    }
     return 0;
 }
